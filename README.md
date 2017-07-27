@@ -1,4 +1,5 @@
-
+[![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Download](https://api.bintray.com/packages/tangsiyuan/maven/myokhttp/images/download.svg) ](https://bintray.com/tangsiyuan/maven/myokhttp/_latestVersion)
 ## 一、依赖库
 * [RxJava 响应式编程框架](https://github.com/ReactiveX/RxJava)
 * [Retrofit2.0 REST安卓客户端请求库](https://github.com/square/retrofit)
