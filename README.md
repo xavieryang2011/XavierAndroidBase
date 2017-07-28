@@ -2,20 +2,16 @@
 [![](https://jitpack.io/v/xavieryang2011/XavierAndroidBase.svg)](https://jitpack.io/#xavieryang2011/XavierAndroidBase)
 ## 一、引入到项目
    ### 在最外层build.gradle添加以下代码
-      	'''
         allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-       '''
    ### 所在项目build.gradle添加依赖
-       '''
         	dependencies {
 	        compile 'com.github.xavieryang2011:XavierAndroidBase:1.0.1'
 	}
-       '''
 ## 二、依赖库
 * [RxJava 响应式编程框架](https://github.com/ReactiveX/RxJava)
 * [Retrofit2.0 REST安卓客户端请求库](https://github.com/square/retrofit)
