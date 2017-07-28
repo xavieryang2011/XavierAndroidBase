@@ -2,7 +2,7 @@
 [![](https://jitpack.io/v/xavieryang2011/XavierAndroidBase.svg)](https://jitpack.io/#xavieryang2011/XavierAndroidBase)
 ## 一、引入到项目
    ### 在最外层build.gradle添加以下代码
-      	'''java
+      	'''
         allprojects {
 		repositories {
 			...
@@ -11,7 +11,7 @@
 	}
        '''
    ### 所在项目build.gradle添加依赖
-       '''java
+       '''
         	dependencies {
 	        compile 'com.github.xavieryang2011:XavierAndroidBase:1.0.1'
 	}
