@@ -17,12 +17,12 @@ import android.widget.ImageView;
 import com.umeng.analytics.MobclickAgent;
 
 import butterknife.Bind;
+import cn.xavier.base.ui.BaseActivity;
 import io.github.xavier.base.R;
-import io.github.xavier.base.base.BaseActivity;
-import io.github.xavier.base.base.Constant;
+import cn.xavier.base.utils.Constant;
 import io.github.xavier.base.ui.adapter.NewsListAdapter;
 import io.github.xavier.base.ui.fragment.NewsListFragment;
-import io.github.xavier.base.utils.PrefUtil;
+import cn.xavier.base.utils.PrefUtil;
 
 public class NewsListActivity extends BaseActivity {
 
@@ -78,12 +78,12 @@ public class NewsListActivity extends BaseActivity {
                 return true;
 
             case R.id.menu_action_daynight:
-                boolean isNight = PrefUtil.isNight();
+                boolean isNight = PrefUtil.isNight(this);
                 if (isNight) {
-                    PrefUtil.setDay();
+                    PrefUtil.setDay(this);
                     setTheme(Constant.RESOURCES_DAYTHEME);
                 } else {
-                    PrefUtil.setNight();
+                    PrefUtil.setNight(this);
                     setTheme(Constant.RESOURCES_NIGHTTHEME);
                 }
                 setDrawableCahe();

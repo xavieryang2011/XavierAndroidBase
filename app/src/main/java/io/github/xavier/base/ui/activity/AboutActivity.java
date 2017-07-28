@@ -14,8 +14,8 @@ import android.widget.TextView;
 import com.umeng.analytics.MobclickAgent;
 
 import butterknife.Bind;
+import cn.xavier.base.ui.BaseActivity;
 import io.github.xavier.base.R;
-import io.github.xavier.base.base.BaseActivity;
 
 /**
  * Created by xavier on 16/3/23.

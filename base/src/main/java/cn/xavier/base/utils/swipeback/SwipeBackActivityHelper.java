@@ -1,4 +1,4 @@
-package io.github.xavier.base.utils.swipeback;
+package cn.xavier.base.utils.swipeback;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -6,8 +6,8 @@ import android.graphics.drawable.ColorDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import io.github.xavier.base.R;
 
+import cn.xavier.base.R;
 /**
  * @author Yrom
  */

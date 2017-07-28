@@ -9,8 +9,8 @@ import android.os.Bundle;
 
 import com.umeng.analytics.MobclickAgent;
 
+import cn.xavier.base.ui.BaseActivity;
 import io.github.xavier.base.R;
-import io.github.xavier.base.base.BaseActivity;
 import io.github.xavier.base.bean.News;
 import io.github.xavier.base.ui.fragment.NewsDetailFragment;
 

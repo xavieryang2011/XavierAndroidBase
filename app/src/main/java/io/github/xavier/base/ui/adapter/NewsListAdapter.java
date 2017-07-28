@@ -23,7 +23,7 @@ import io.github.xavier.base.bean.News;
 import io.github.xavier.base.db.dao.NewDao;
 import io.github.xavier.base.ui.activity.NewsDetailActivity;
 import io.github.xavier.base.utils.DateUtil;
-import io.github.xavier.base.utils.PrefUtil;
+import cn.xavier.base.utils.PrefUtil;
 
 /**
  * Created by xavier on 16/3/16.
@@ -38,10 +38,11 @@ public class NewsListAdapter extends RecyclerView.Adapter<NewsListAdapter.NewsVi
     private long lastPos = -1;
     private NewDao newDao;
     private boolean isAnim = true;
-    private boolean isNight = PrefUtil.isNight();
+    private boolean isNight ;
 
     public NewsListAdapter(Context context, List<News> newsList) {
         this.mContext = context;
+        this.isNight= PrefUtil.isNight(context);
         this.mNewsList = newsList;
         this.newDao = new NewDao(context);
     }

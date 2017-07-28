@@ -1,4 +1,4 @@
-package io.github.xavier.base.utils.swipeback;
+package cn.xavier.base.utils.swipeback;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,7 +16,7 @@ import android.widget.FrameLayout;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.github.xavier.base.R;
+import cn.xavier.base.R;
 
 public class SwipeBackLayout extends FrameLayout {
     /**

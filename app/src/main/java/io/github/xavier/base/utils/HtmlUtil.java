@@ -2,6 +2,7 @@ package io.github.xavier.base.utils;
 
 import java.util.List;
 
+import io.github.xavier.base.App;
 import io.github.xavier.base.bean.NewsDetail;
 
 public class HtmlUtil {
@@ -18,6 +19,7 @@ public class HtmlUtil {
     public static final String ENCODING = "utf-8";
 
     private HtmlUtil() {
+
     }
 
     /**

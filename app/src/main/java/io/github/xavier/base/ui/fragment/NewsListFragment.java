@@ -17,8 +17,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.Bind;
+import cn.xavier.base.ui.BaseFragment;
 import io.github.xavier.base.R;
-import io.github.xavier.base.base.BaseFragment;
 import io.github.xavier.base.bean.News;
 import io.github.xavier.base.bean.NewsDetail;
 import io.github.xavier.base.bean.NewsList;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.github.xavier.base.utils.swipeback;
+package cn.xavier.base.utils.swipeback;
 
 import android.content.Context;
 import android.support.v4.view.MotionEventCompat;

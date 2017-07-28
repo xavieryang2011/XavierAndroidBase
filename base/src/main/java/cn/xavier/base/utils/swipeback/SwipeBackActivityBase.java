@@ -1,4 +1,4 @@
-package io.github.xavier.base.utils.swipeback;
+package cn.xavier.base.utils.swipeback;
 
 /**
  * @author Yrom

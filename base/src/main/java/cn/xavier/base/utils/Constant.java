@@ -1,6 +1,6 @@
-package io.github.xavier.base.base;
+package cn.xavier.base.utils;
 
-import io.github.xavier.base.R;
+import cn.xavier.base.R;
 
 /**
  * Created by xavier on 16/3/31.

@@ -20,8 +20,8 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
 import butterknife.Bind;
+import cn.xavier.base.ui.BaseFragment;
 import io.github.xavier.base.R;
-import io.github.xavier.base.base.BaseFragment;
 import io.github.xavier.base.bean.News;
 import io.github.xavier.base.bean.NewsDetail;
 import io.github.xavier.base.network.manager.RetrofitManager;
@@ -29,7 +29,7 @@ import io.github.xavier.base.ui.activity.AboutActivity;
 import io.github.xavier.base.ui.activity.NewsDetailActivity;
 import io.github.xavier.base.utils.HtmlUtil;
 import io.github.xavier.base.utils.L;
-import io.github.xavier.base.utils.PrefUtil;
+import cn.xavier.base.utils.PrefUtil;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action0;
 import rx.functions.Action1;
@@ -141,7 +141,7 @@ public class NewsDetailFragment extends BaseFragment {
                             mTvTitle.setText(newsDetail.getTitle());
                             mTvSource.setText(newsDetail.getImage_source());
                             mWvNews.setDrawingCacheEnabled(true);
-                            boolean isNight = PrefUtil.isNight();
+                            boolean isNight = PrefUtil.isNight(getActivity());
 //                            StringBuffer stringBuffer = HtmlUtil.handleHtml(newsDetail.getBody(),isNight);
 //                            mWvNews.loadDataWithBaseURL("file:///android_asset/", stringBuffer.toString(), "text/html", "utf-8", null);
                             String htmlData = HtmlUtil.createHtmlData(newsDetail, isNight);

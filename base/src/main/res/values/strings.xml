@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">base</string>
+    <string name="main_menu_changetheme_day">夜间模式</string>
+    <string name="main_menu_changetheme_night">日间模式</string>
 </resources>

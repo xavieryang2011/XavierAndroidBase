@@ -1,5 +1,5 @@
 
-package io.github.xavier.base.utils.swipeback;
+package cn.xavier.base.utils.swipeback;
 
 import android.app.Activity;
 import android.app.ActivityOptions;
