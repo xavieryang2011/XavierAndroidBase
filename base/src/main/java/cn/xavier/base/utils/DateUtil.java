@@ -1,4 +1,4 @@
-package io.github.xavier.base.utils;
+package cn.xavier.base.utils;
 
 /**
  * Created by xavier on 16/3/28.

@@ -22,7 +22,7 @@ import io.github.xavier.base.R;
 import io.github.xavier.base.bean.News;
 import io.github.xavier.base.db.dao.NewDao;
 import io.github.xavier.base.ui.activity.NewsDetailActivity;
-import io.github.xavier.base.utils.DateUtil;
+import cn.xavier.base.utils.DateUtil;
 import cn.xavier.base.utils.PrefUtil;
 
 /**
