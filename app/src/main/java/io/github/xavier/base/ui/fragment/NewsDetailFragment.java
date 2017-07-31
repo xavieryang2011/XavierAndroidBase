@@ -28,7 +28,7 @@ import io.github.xavier.base.network.manager.RetrofitManager;
 import io.github.xavier.base.ui.activity.AboutActivity;
 import io.github.xavier.base.ui.activity.NewsDetailActivity;
 import io.github.xavier.base.utils.HtmlUtil;
-import io.github.xavier.base.utils.L;
+import cn.xavier.base.utils.L;
 import cn.xavier.base.utils.PrefUtil;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action0;

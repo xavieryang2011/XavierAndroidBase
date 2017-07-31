@@ -8,7 +8,7 @@ import io.github.xavier.base.App;
 import io.github.xavier.base.bean.NewsDetail;
 import io.github.xavier.base.bean.NewsList;
 import io.github.xavier.base.network.service.ZhihuService;
-import io.github.xavier.base.utils.NetUtil;
+import cn.xavier.base.utils.NetUtil;
 import okhttp3.Cache;
 import okhttp3.CacheControl;
 import okhttp3.Interceptor;

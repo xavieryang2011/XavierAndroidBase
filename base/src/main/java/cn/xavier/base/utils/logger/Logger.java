@@ -1,4 +1,4 @@
-package io.github.xavier.base.utils.logger;
+package cn.xavier.base.utils.logger;
 
 /**
  * Logger is a wrapper of {@link android.util.Log}

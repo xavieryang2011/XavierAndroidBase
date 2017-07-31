@@ -1,4 +1,4 @@
-package io.github.xavier.base.utils.logger;
+package cn.xavier.base.utils.logger;
 
 import android.text.TextUtils;
 import android.util.Log;
@@ -23,8 +23,8 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
-import io.github.xavier.base.utils.logger.util.ArrayUtil;
-import io.github.xavier.base.utils.logger.util.SystemUtil;
+import cn.xavier.base.utils.logger.util.ArrayUtil;
+import cn.xavier.base.utils.logger.util.SystemUtil;
 
 /**
  * Logger is a wrapper of {@link Log}
@@ -32,7 +32,7 @@ import io.github.xavier.base.utils.logger.util.SystemUtil;
  *
  * @author Orhan Obut
  */
-final class LoggerPrinter implements io.github.xavier.base.utils.logger.Printer {
+final class LoggerPrinter implements cn.xavier.base.utils.logger.Printer {
 
   /**
    * Android's max limit for a log entry is ~4076 bytes,
@@ -54,7 +54,7 @@ final class LoggerPrinter implements io.github.xavier.base.utils.logger.Printer 
   /**
    * It is used to determine log settings such as method count, thread info visibility
    */
-  private static final io.github.xavier.base.utils.logger.Settings settings = new io.github.xavier.base.utils.logger.Settings();
+  private static final cn.xavier.base.utils.logger.Settings settings = new cn.xavier.base.utils.logger.Settings();
 
   /**
    * Drawing toolbox
@@ -87,7 +87,7 @@ final class LoggerPrinter implements io.github.xavier.base.utils.logger.Printer 
    * @param tag is the given string which will be used in Logger
    */
   @Override
-  public io.github.xavier.base.utils.logger.Settings init(String tag) {
+  public cn.xavier.base.utils.logger.Settings init(String tag) {
     if (tag == null) {
       throw new IllegalStateException("tag may not be null");
     }
@@ -96,7 +96,7 @@ final class LoggerPrinter implements io.github.xavier.base.utils.logger.Printer 
   }
 
   @Override
-  public io.github.xavier.base.utils.logger.Settings getSettings() {
+  public cn.xavier.base.utils.logger.Settings getSettings() {
     return settings;
   }
 

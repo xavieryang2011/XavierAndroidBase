@@ -1,8 +1,8 @@
-package io.github.xavier.base.utils;
+package cn.xavier.base.utils;
 
-import io.github.xavier.base.utils.logger.Logger;
-import io.github.xavier.base.utils.logger.Printer;
-import io.github.xavier.base.utils.logger.Settings;
+import cn.xavier.base.utils.logger.Logger;
+import cn.xavier.base.utils.logger.Printer;
+import cn.xavier.base.utils.logger.Settings;
 
 /**
  *

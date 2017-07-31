@@ -1,4 +1,4 @@
-package io.github.xavier.base.utils;
+package cn.xavier.base.utils;
 
 import android.content.Context;
 

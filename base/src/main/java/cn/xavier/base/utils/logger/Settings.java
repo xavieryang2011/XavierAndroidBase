@@ -1,4 +1,4 @@
-package io.github.xavier.base.utils.logger;
+package cn.xavier.base.utils.logger;
 
 /**
  * @author Orhan Obut
@@ -13,7 +13,7 @@ public final class Settings {
   /**
    * Determines how logs will printed
    */
-  private io.github.xavier.base.utils.logger.LogLevel logLevel = io.github.xavier.base.utils.logger.LogLevel.FULL;
+  private cn.xavier.base.utils.logger.LogLevel logLevel = cn.xavier.base.utils.logger.LogLevel.FULL;
 
   public Settings hideThreadInfo() {
     showThreadInfo = false;
@@ -28,7 +28,7 @@ public final class Settings {
     return this;
   }
 
-  public Settings setLogLevel(io.github.xavier.base.utils.logger.LogLevel logLevel) {
+  public Settings setLogLevel(cn.xavier.base.utils.logger.LogLevel logLevel) {
     this.logLevel = logLevel;
     return this;
   }
@@ -51,7 +51,7 @@ public final class Settings {
     return showThreadInfo;
   }
 
-  public io.github.xavier.base.utils.logger.LogLevel getLogLevel() {
+  public cn.xavier.base.utils.logger.LogLevel getLogLevel() {
     return logLevel;
   }
 

@@ -2,7 +2,6 @@ package io.github.xavier.base.utils;
 
 import java.util.List;
 
-import io.github.xavier.base.App;
 import io.github.xavier.base.bean.NewsDetail;
 
 public class HtmlUtil {
@@ -91,8 +90,8 @@ public class HtmlUtil {
      * @return String
      */
     public static String createHtmlData(NewsDetail newsDetail, boolean isNight) {
-        final String css = HtmlUtil.createCssTag(newsDetail.getCss());
-        final String js = HtmlUtil.createJsTag(newsDetail.getJs());
+        final String css = createCssTag(newsDetail.getCss());
+        final String js = createJsTag(newsDetail.getJs());
         final String body = handleHtml(newsDetail.getBody(), isNight).toString();
         return createHtmlData(body, css, js);
     }

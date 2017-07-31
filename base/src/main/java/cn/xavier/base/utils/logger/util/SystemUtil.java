@@ -1,4 +1,4 @@
-package io.github.xavier.base.utils.logger.util;
+package cn.xavier.base.utils.logger.util;
 
 import java.lang.reflect.Field;
 

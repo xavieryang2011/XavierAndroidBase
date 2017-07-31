@@ -3,8 +3,8 @@ package io.github.xavier.base;
 import android.app.Application;
 import android.content.Context;
 
-import io.github.xavier.base.utils.AppContextUtil;
-import io.github.xavier.base.utils.L;
+import cn.xavier.base.utils.AppContextUtil;
+import cn.xavier.base.utils.L;
 
 /**
  * Created by xavier on 16/3/17.
