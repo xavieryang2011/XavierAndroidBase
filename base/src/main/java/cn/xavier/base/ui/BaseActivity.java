@@ -2,11 +2,10 @@ package cn.xavier.base.ui;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentActivity;
 import android.view.KeyEvent;
 
 import butterknife.ButterKnife;
-import cn.xavier.base.utils.PrefUtil;
+import cn.xavier.base.R;
 import cn.xavier.base.utils.swipeback.SwipeBackActivity;
 import cn.xavier.base.utils.swipeback.SwipeBackLayout;
 
@@ -20,7 +19,7 @@ public abstract class BaseActivity extends SwipeBackActivity  {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(PrefUtil.getThemeRes(this));
+        setTheme(R.style.AppTheme_NoActionBar);
         setContentView(getLayoutId());
         mSwipeBackLayout=getSwipeBackLayout();
         mSwipeBackLayout.setEdgeTrackingEnabled(SwipeBackLayout.EDGE_LEFT);

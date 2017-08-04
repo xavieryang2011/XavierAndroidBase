@@ -26,4 +26,7 @@
     <string name="about">关于</string>
     <string name="about_version">1.0</string>
 
+    <string name="main_menu_changetheme_day">夜间模式</string>
+    <string name="main_menu_changetheme_night">日间模式</string>
+
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.github.xavier.base">
+    package="io.github.xavier.demo">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -9,21 +9,21 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name="io.github.xavier.base.App"
+        android:name="io.github.xavier.demo.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/DayTheme">
-        <activity android:name="io.github.xavier.base.ui.activity.NewsListActivity">
+        <activity android:name="io.github.xavier.demo.ui.activity.NewsListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="io.github.xavier.base.ui.activity.NewsDetailActivity" />
-        <activity android:name="io.github.xavier.base.ui.activity.AboutActivity" />
+        <activity android:name="io.github.xavier.demo.ui.activity.NewsDetailActivity" />
+        <activity android:name="io.github.xavier.demo.ui.activity.AboutActivity" />
 
         <!--umeng-->
         <meta-data
